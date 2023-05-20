@@ -25,42 +25,42 @@ module.exports = {
     [
       {
         type: 'category',
-        label: '入门',
+        label: 'quickstart',
         collapsed: false,
         items: getDocsFromDir('guide/quickStart'),
       },
       {
         type: 'category',
-        label: '创建编辑器',
+        label: 'create',
         collapsed: false,
         items: getDocsFromDir('guide/create'),
       },
       {
         type: 'category',
-        label: '扩展编辑器',
+        label: 'extented editor',
         collapsed: false,
         items: getDocsFromDir('guide/expand/editor', [{ dir: 'guide/expand/editor/parts', label: 'Parts·造物' }]),
       },
       {
         type: 'category',
-        label: '扩展运行时',
+        label: 'extended runtime',
         collapsed: false,
         items: getDocsFromDir('guide/expand/runtime'),
       },
       {
         type: 'category',
-        label: '设计原理',
+        label: 'design principle',
         collapsed: false,
         items: getDocsFromDir('guide/design'),
       },
       {
         type: 'category',
-        label: '附录',
+        label: 'Appendix',
         collapsed: false,
         items: [
           {
             type: 'link',
-            label: '更新日志',
+            label: 'Update log',
             href: 'https://github.com/samkenxtream/SAMkenxlowcode-engine/releases',
           },
           ...getDocsFromDir('guide/appendix'),
@@ -68,7 +68,7 @@ module.exports = {
       },
       {
         type: 'link',
-        label: '技术白皮书',
+        label: 'Technical White Paper',
         href: 'https://developer.samkenx.com/ebook/7507',
       },
     ],
