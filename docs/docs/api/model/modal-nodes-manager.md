@@ -2,7 +2,7 @@
 title: ModalNodesManager
 sidebar_position: 7
 ---
-> **@types** [IPublicModelModalNodesManager](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/modal-nodes-manager.ts)<br/>
+> **@types** [IPublicModelModalNodesManager](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/modal-nodes-manager.ts)<br/>
 > **@since** v1.0.0
 
 ## 基本介绍
@@ -20,7 +20,7 @@ sidebar_position: 7
  * 设置模态节点，触发内部事件
  * set modal nodes, trigger internal events
  */
-setNodes(): void;
+setNodes(): 
 ```
 
 ### getModalNodes
@@ -35,7 +35,7 @@ setNodes(): void;
 getModalNodes(): IPublicModelNode[];
 ```
 
-相关类型：[IPublicModelNode](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
+相关类型：[IPublicModelNode](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
 
 ### getVisibleModalNode
 
@@ -46,10 +46,10 @@ getModalNodes(): IPublicModelNode[];
  * 获取当前可见的模态节点
  * get current visible modal node
  */
-getVisibleModalNode(): IPublicModelNode | null;
+getVisibleModalNode(): IPublicModelNode
 ```
 
-相关类型：[IPublicModelNode](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
+相关类型：[IPublicModelNode](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
 
 ### hideModalNodes
 
@@ -60,7 +60,7 @@ getVisibleModalNode(): IPublicModelNode | null;
  * 隐藏模态节点（们）
  * hide modal nodes
  */
-hideModalNodes(): void;
+hideModalNodes(): 
 ```
 
 ### setVisible
@@ -73,10 +73,10 @@ hideModalNodes(): void;
  * set specific model node as visible
  * @param node Node
  */
-setVisible(node: IPublicModelNode): void;
+setVisible(node: IPublicModelNode): 
 ```
 
-相关类型：[IPublicModelNode](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
+相关类型：[IPublicModelNode](https://github.com/samkenxtream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
 
 ### setInvisible
 
@@ -88,7 +88,7 @@ setVisible(node: IPublicModelNode): void;
  * set specific model node as invisible
  * @param node Node
  */
-setInvisible(node: IPublicModelNode): void;
+setInvisible(node: IPublicModelNode)
 ```
 
-相关类型：[IPublicModelNode](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
+相关类型：[IPublicModelNode](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
