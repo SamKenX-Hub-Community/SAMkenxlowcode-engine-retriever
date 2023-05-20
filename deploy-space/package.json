@@ -6,7 +6,7 @@
     ],
     "nohoist": [
       "**/css-modules-typescript-loader",
-      "**/@alife/theme-lowcode-*"
+      "**/@samkenxstream/theme-lowcode-*"
     ]
   },
   "dependencies": {
