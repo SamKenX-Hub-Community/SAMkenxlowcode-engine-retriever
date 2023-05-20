@@ -14,7 +14,7 @@ Assign value to the clipboard
 
 ```typescript
 /**
- * 给剪贴板赋值
+ * assign value to the clipboard
  * set data to clipboard
  *
  * @param {*} data
@@ -29,7 +29,7 @@ Callback for setting clipboard data settings
 
 ```typescript
 /**
- * 设置剪贴板数据设置的回调
+ * set the callback for clipboard data settings
  * set callback for clipboard provide paste data
  *
  * @param {KeyboardEvent} keyboardEvent
