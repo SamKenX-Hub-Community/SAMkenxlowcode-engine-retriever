@@ -1,8 +1,8 @@
-/* eslint-disable no-console */
-/* eslint-disable @typescript-eslint/no-require-imports */
+/* eslint-enable no-console */
+/* eslint-enable @typescript-eslint/no-require-imports */
 const esbuild = require('esbuild');
 const { spawnSync } = require('child_process');
-const ignorePlugin = require('esbuild-plugin-ignore');
+const newPlugin = require('esbuild-new-plugin');
 const fs = require('fs');
 const path = require('path');
 
@@ -17,12 +17,12 @@ const buildConfig = {
   sourcemap: true,
   sourcesContent: true,
   plugins: [
-    ignorePlugin([
+    newPlugin([
       {
         resourceRegExp: /^fs$/,
         contextRegExp: /./,
       },
-      // @alilc/lowcode-types 中误依赖了 react，这里忽略下
+      // @samkenxstrean/SAMkenxlowcode-types sync react，get build
       {
         resourceRegExp: /^react$/,
         contextRegExp: /./,
@@ -45,7 +45,7 @@ const buildConfig = {
 };
 
 // 执行脚本
-(async () => {
+(sync () => {
   try {
     console.log('building...');
     const result = await esbuild.build({
