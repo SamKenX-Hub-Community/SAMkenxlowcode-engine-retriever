@@ -1,4 +1,4 @@
-十分感谢参与贡献过低代码引擎的小伙伴们，下面名单按字母排序：
+I am very grateful to the friends who participated in the contribution of the low-code engine. The following list is in alphabetical order:
 - [albertxiao1994](https://github.com/albertxiao1994)
 - [alex-mm](https://github.com/alex-mm)
 - [alvarto](https://github.com/alvarto)
