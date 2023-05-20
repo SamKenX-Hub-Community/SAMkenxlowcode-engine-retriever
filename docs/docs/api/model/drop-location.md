@@ -3,7 +3,7 @@ title: DropLocation
 sidebar_position: 13
 ---
 
-> **@types** [IPublicModelDropLocation](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/drop-location.ts)<br/>
+> **@types**[IPublicModelDropLocation](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/drop-location.ts)<br/> 
 > **@since** v1.1.0
 
 
