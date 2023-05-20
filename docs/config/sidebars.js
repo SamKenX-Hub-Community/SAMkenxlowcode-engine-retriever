@@ -7,7 +7,7 @@
 const getDocsFromDir = require('../scripts/getDocsFromDir');
 
 module.exports = {
-  // 手动配置的导航
+  // manually configured navigation
   // guide: [
   //   'guide/quickStart/intro',
   //   'guide/quickStart/start',
@@ -61,7 +61,7 @@ module.exports = {
           {
             type: 'link',
             label: '更新日志',
-            href: 'https://github.com/alibaba/lowcode-engine/releases',
+            href: 'https://github.com/samkenxtream/SAMkenxlowcode-engine/releases',
           },
           ...getDocsFromDir('guide/appendix'),
         ],
@@ -69,7 +69,7 @@ module.exports = {
       {
         type: 'link',
         label: '技术白皮书',
-        href: 'https://developer.aliyun.com/ebook/7507',
+        href: 'https://developer.samkenx.com/ebook/7507',
       },
     ],
   ],
