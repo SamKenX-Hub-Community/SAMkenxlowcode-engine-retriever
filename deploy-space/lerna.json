@@ -1,7 +1,7 @@
 {
   "version": "independent",
   "npmClient": "yarn",
-  "registry": "http://registry.npm.alibaba-inc.com",
+  "registry": "http://registry.npm.samkenx.com",
   "useWorkspaces": true,
   "packages": [
     "packages/*"
