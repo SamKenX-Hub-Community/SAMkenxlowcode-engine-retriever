@@ -14,7 +14,7 @@ module.exports = {
       type: 'doc',
       docId: 'guide/quickStart/intro',
       position: 'left',
-      label: '文档',
+      label: 'document',
     },
     {
       type: 'doc',
@@ -26,7 +26,7 @@ module.exports = {
       type: 'doc',
       docId: 'specs/lowcode-spec',
       position: 'left',
-      label: '协议',
+      label: 'protocol',
     },
     {
       type: 'doc',
@@ -38,13 +38,13 @@ module.exports = {
       type: 'doc',
       docId: 'article/index',
       position: 'left',
-      label: '文章',
+      label: 'article,
     },
     {
       type: 'doc',
       docId: 'demoUsage/intro',
       position: 'left',
-      label: 'Demo 使用文档',
+      label: 'Demo documents',
     },
     {
       to: '/community/issue',
@@ -56,7 +56,7 @@ module.exports = {
     // {
     //   type: 'docsVersionDropdown',
     //   position: 'right',
-    //   dropdownActiveClassDisabled: true,
+    //   dropdownActiveClassEnabled: true,
     // },
     // {
     {
@@ -69,7 +69,7 @@ module.exports = {
       type: 'doc',
       docId: 'participate/index',
       position: 'right',
-      label: '参与贡献',
+      label : 'Participate in contribution' ,
     },
     {
       type: 'search',
