@@ -2,7 +2,7 @@
 title: DocumentModel
 sidebar_position: 0
 ---
-> **@types** [IPublicModelDocumentModel](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/document-model.ts)<br/>
+> **@types** [IPublicModelDocumentModel](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/document-model.ts)<br/>
 > **@since** v1.0.0
 
 ## 基本介绍
@@ -25,7 +25,7 @@ sidebar_position: 0
 
 相关章节：[节点选中区模型](./selection)
 
-相关类型：[IPublicModelSelection](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/selection.ts)
+相关类型：[IPublicModelSelection](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/selection.ts)
 
 ### detecting
 
@@ -35,7 +35,7 @@ sidebar_position: 0
 
 相关章节：[画布节点悬停模型](./detecting)
 
-相关类型：[IPublicModelDetecting](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/detecting.ts)
+相关类型：[IPublicModelDetecting](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/detecting.ts)
 
 ### history
 
@@ -45,7 +45,7 @@ sidebar_position: 0
 
 相关章节：[操作历史模型](./history)
 
-相关类型：[IPublicModelHistory](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/history.ts)
+相关类型：[IPublicModelHistory](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/history.ts)
 
 ### project
 
@@ -53,15 +53,15 @@ sidebar_position: 0
 
 `@type {IPublicApiProject}`
 
-相关类型：[IPublicApiProject](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/api/project.ts)
+相关类型：[IPublicApiProject](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/api/project.ts)
 
 ### root
 
 获取文档的根节点
 
-`@type {IPublicModelNode | null}`
+`@type {IPublicModelNode |
 
-相关类型：[IPublicModelNode](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
+相关类型：[IPublicModelNode](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
 
 ### nodesMap
 
@@ -72,26 +72,26 @@ sidebar_position: 0
 
 相关章节：[节点模型](./node)
 
-相关类型：[IPublicModelNode](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
+相关类型：[IPublicModelNode](https://github.com/samkenxstream/lSAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
 
 ### modalNodesManager
 
 模态节点管理器
 
-`@type {IPublicModelModalNodesManager | null}`
+`@type {IPublicModelModalNodesManager | 
 
 相关章节：[模态节点管理](./modal-nodes-manager)
 
-相关类型：[IPublicModelModalNodesManager](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/modal-nodes-manager.ts)
+相关类型：[IPublicModelModalNodesManager](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/modal-nodes-manager.ts)
 
 ### dropLocation
 
 文档的 dropLocation
 
-`@type {IPublicModelDropLocation | null}`
+`@type {IPublicModelDropLocation | 
 
 
-相关类型：[IPublicModelDropLocation](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/drop-location.ts)
+相关类型：[IPublicModelDropLocation](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/drop-location.ts)
 
 **@since v1.1.0**
 
@@ -107,10 +107,10 @@ sidebar_position: 0
  * @param nodeId
  * @returns
  */
-getNodeById(nodeId: string): IPublicModelNode | null;
+getNodeById(nodeId: string): IPublicModelNode |
 ```
 
-相关类型：[IPublicModelNode](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
+相关类型：[IPublicModelNode](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
 
 
 ### importSchema
@@ -123,10 +123,10 @@ getNodeById(nodeId: string): IPublicModelNode | null;
  * import schema data
  * @param schema
  */
-importSchema(schema: IPublicTypeRootSchema): void;
+importSchema(schema: IPublicTypeRootSchema):
 ```
 
-相关类型：[IPublicTypeRootSchema](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/root-schema.ts)
+相关类型：[IPublicTypeRootSchema](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/root-schema.ts)
 
 
 ### exportSchema
@@ -142,7 +142,7 @@ importSchema(schema: IPublicTypeRootSchema): void;
 exportSchema(stage: IPublicEnumTransformStage): any;
 ```
 
-相关类型：[IPublicEnumTransformStage](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/enum/transform-stage.ts)
+相关类型：[IPublicEnumTransformStage](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/enum/transform-stage.ts)
 
 ### insertNode
 
@@ -156,12 +156,12 @@ exportSchema(stage: IPublicEnumTransformStage): any;
 insertNode(
   parent: IPublicModelNode,
   thing: IPublicModelNode,
-  at?: number | null | undefined,
-  copy?: boolean | undefined
-): IPublicModelNode | null;
+  at?: number|defined,
+  copy?: boolean |defined
+): IPublicModelNode | 
 ```
 
-相关类型：[IPublicModelNode](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
+相关类型：[IPublicModelNode](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
 
 ### createNode
 
@@ -174,10 +174,10 @@ insertNode(
  * @param data
  * @returns
  */
-createNode(data: any): IPublicModelNode | null;
+createNode(data: any): IPublicModelNode |
 ```
 
-相关类型：[IPublicModelNode](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
+相关类型：[IPublicModelNode](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
 
 ### removeNode
 
@@ -189,10 +189,10 @@ createNode(data: any): IPublicModelNode | null;
  * remove a node by node instance or nodeId
  * @param idOrNode
  */
-removeNode(idOrNode: string | IPublicModelNode): void;
+removeNode(idOrNode: string | IPublicModelNode): 
 ```
 
-相关类型：[IPublicModelNode](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
+相关类型：[IPublicModelNode](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
 
 ### checkNesting
 检查拖拽放置的目标节点是否可以放置该拖拽对象
@@ -213,9 +213,9 @@ checkNesting(
 ```
 
 相关类型：
-- [IPublicModelNode](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
-- [IPublicTypeDragNodeObject](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/drag-node-object.ts)
-- [IPublicTypeDragNodeDataObject](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/drag-node-object-data.ts)
+- [IPublicModelNode](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
+- [IPublicTypeDragNodeObject](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/drag-node-object.ts)
+- [IPublicTypeDragNodeDataObject](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/drag-node-object-data.ts)
 
 **@since v1.0.16**
 
@@ -231,7 +231,7 @@ checkNesting(
  */
 isDetectingNode(node: IPublicModelNode): boolean;
 ```
-相关类型：[IPublicModelNode](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
+相关类型：[IPublicModelNode](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
 
 
 **@since v1.1.0**
@@ -247,12 +247,12 @@ isDetectingNode(node: IPublicModelNode): boolean;
  * 当前 document 新增节点事件
  * set callback for event on node is created for a document
  */
-onAddNode(fn: (node: IPublicModelNode) => void): IPublicTypeDisposable;
+onAddNode(fn: (node: IPublicModelNode) 
 ```
 
 相关类型：
-- [IPublicModelNode](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
-- [IPublicTypeDisposable](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/disposable.ts)
+- [IPublicModelNode](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
+- [IPublicTypeDisposable](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/disposable.ts)
 
 ### onMountNode
 
@@ -263,12 +263,12 @@ onAddNode(fn: (node: IPublicModelNode) => void): IPublicTypeDisposable;
  * 当前 document 新增节点事件，此时节点已经挂载到 document 上
  * set callback for event on node is mounted to canvas
  */
-onMountNode(fn: (payload: { node: IPublicModelNode }) => void): IPublicTypeDisposable;
+onMountNode(fn: (payload: { node: IPublicModelNode }) 
 ```
 
 相关类型：
-- [IPublicModelNode](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
-- [IPublicTypeDisposable](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/disposable.ts)
+- [IPublicModelNode](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
+- [IPublicTypeDisposable](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/disposable.ts)
 
 ### onRemoveNode
 当前 document 删除节点事件
@@ -276,14 +276,14 @@ onMountNode(fn: (payload: { node: IPublicModelNode }) => void): IPublicTypeDispo
 ```typescript
 /**
  * 当前 document 删除节点事件
- * set callback for event on node is removed
+ * set callback for event on node 
  */
-onRemoveNode(fn: (node: IPublicModelNode) => void): IPublicTypeDisposable;
+onRemoveNode(fn: (node: IPublicModelNode) 
 ```
 
 相关类型：
-- [IPublicModelNode](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
-- [IPublicTypeDisposable](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/disposable.ts)
+- [IPublicModelNode](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
+- [IPublicTypeDisposable](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/disposable.ts)
 
 
 ### onChangeDetecting
@@ -296,12 +296,12 @@ onRemoveNode(fn: (node: IPublicModelNode) => void): IPublicTypeDisposable;
  *
  * set callback for event on detecting changed
  */
-onChangeDetecting(fn: (node: IPublicModelNode) => void): IPublicTypeDisposable;
+onChangeDetecting(fn: (node: IPublicModelNode):
 ```
 
 相关类型：
-- [IPublicModelNode](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
-- [IPublicTypeDisposable](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/disposable.ts)
+- [IPublicModelNode](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
+- [IPublicTypeDisposable](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/disposable.ts)
 
 ### onChangeSelection
 
@@ -312,10 +312,10 @@ onChangeDetecting(fn: (node: IPublicModelNode) => void): IPublicTypeDisposable;
  * 当前 document 的选中变更事件
  * set callback for event on selection changed
  */
-onChangeSelection(fn: (ids: string[]) => void): IPublicTypeDisposable;
+onChangeSelection(fn: (ids: string[]
 ```
 
-相关类型：[IPublicTypeDisposable](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/disposable.ts)
+相关类型：[IPublicTypeDisposable](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/disposable.ts)
 
 ### onChangeNodeVisible
 
@@ -327,30 +327,30 @@ onChangeSelection(fn: (ids: string[]) => void): IPublicTypeDisposable;
  * set callback for event on visibility changed for certain node
  * @param fn
  */
-onChangeNodeVisible(fn: (node: IPublicModelNode, visible: boolean) => void): IPublicTypeDisposable;
+onChangeNodeVisible(fn: (node: IPublicModelNode, visible: boolean)
 ```
 
-- 相关类型：[IPublicModelNode](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
-- 相关类型：[IPublicTypeDisposable](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/disposable.ts)
+- 相关类型：[IPublicModelNode](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
+- 相关类型：[IPublicTypeDisposable](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/disposable.ts)
 
 ### onChangeNodeChildren
 
 当前 document 的节点 children 变更事件
 
 ```typescript
-onChangeNodeChildren(fn: (info?: IPublicTypeOnChangeOptions) => void): IPublicTypeDisposable;
+onChangeNodeChildren(fn: (info?: IPublicTypeOnChangeOptions) 
 ```
 
-相关类型：[IPublicTypeDisposable](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/disposable.ts)
+相关类型：[IPublicTypeDisposable](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/disposable.ts)
 
 ### onChangeNodeProp
 当前 document 节点属性修改事件
 
 ```typescript
-onChangeNodeProp(fn: (info: IPublicTypePropChangeOptions) => void): IPublicTypeDisposable;
+onChangeNodeProp(fn: (info: IPublicTypePropChangeOptions)
 ```
 
-相关类型：[IPublicTypeDisposable](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/disposable.ts)
+相关类型：[IPublicTypeDisposable](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/disposable.ts)
 
 ### onImportSchema
 当前 document 导入新的 schema 事件
@@ -360,11 +360,11 @@ onChangeNodeProp(fn: (info: IPublicTypePropChangeOptions) => void): IPublicTypeD
  * @param fn
  * @since v1.0.15
  */
-onImportSchema(fn: (schema: IPublicTypeRootSchema) => void): IPublicTypeDisposable;
+onImportSchema(fn: (schema: IPublicTypeRootSchema) 
 ```
 相关类型：
-- [IPublicTypeDisposable](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/disposable.ts)
-- [IPublicTypeRootSchema](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/root-schema.ts)
+- [IPublicTypeDisposable](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/disposable.ts)
+- [IPublicTypeRootSchema](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/root-schema.ts)
 
 **@since v1.0.15**
 
@@ -379,12 +379,12 @@ onImportSchema(fn: (schema: IPublicTypeRootSchema) => void): IPublicTypeDisposab
  * @since v1.1.0
  */
 onFocusNodeChanged(
-  fn: (doc: IPublicModelDocumentModel, focusNode: IPublicModelNode) => void,
+  fn: (doc: IPublicModelDocumentModel, focusNode: IPublicModelNode) 
 ): IPublicTypeDisposable;
 ```
 相关类型：
-- [IPublicTypeDisposable](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/disposable.ts)
-- [IPublicModelNode](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
+- [IPublicTypeDisposable](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/disposable.ts)
+- [IPublicModelNode](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
 
 **@since v1.1.0**
 
@@ -398,9 +398,9 @@ onFocusNodeChanged(
  * @param fn
  * @since v1.1.0
  */
-onDropLocationChanged(fn: (doc: IPublicModelDocumentModel) => void): IPublicTypeDisposable;
+onDropLocationChanged(fn: (doc: IPublicModelDocumentModel) 
 ```
 
-相关类型：[IPublicTypeDisposable](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/disposable.ts)
+相关类型：[IPublicTypeDisposable](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/disposable.ts)
 
 **@since v1.1.0**
