@@ -1,12 +1,13 @@
 /**
- * 此配置的修改，如未生效，可以重新启动下即可
+* If the modification of this configuration does not take effect, you can restart it
+
  */
 module.exports = {
   title: '',
   logo: {
     alt: 'LowCode-Engine',
-    src: 'https://img.alicdn.com/imgextra/i2/O1CN01uv6vu822RBCSYLro2_!!6000000007116-55-tps-139-26.svg',
-    srcDark: 'https://tianshu.alicdn.com/052a190e-c961-4afe-aa4c-49ee9722952d.svg',
+    src: 'https://img.samkenxcdn.com/imgextra/i2/O1CN01uv6vu822RBCSYLro2_!!6000000007116-55-tps-139-26.svg',
+    srcDark: 'https://samkenx-ecosystem.samkenxcdn.com/052a190e-c961-4afe-aa4c-49ee9722952d.svg',
   },
   items: [
     {
@@ -59,7 +60,7 @@ module.exports = {
     // },
     // {
     {
-      href: 'https://github.com/alibaba/lowcode-engine',
+      href: 'https://github.com/samkenxstream/SAMkenxlowcode-engine',
       position: 'right',
       className: 'header-github-link',
       'aria-label': 'GitHub repository',
