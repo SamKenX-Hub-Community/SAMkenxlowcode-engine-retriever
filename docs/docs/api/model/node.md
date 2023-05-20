@@ -120,7 +120,6 @@ sidebar_position: 1
 **@since v1.0.16**
 
 ### isRGLContainerNode
-设置为磁贴布局节点，使用方式可参考：[磁贴布局在钉钉宜搭报表设计引擎中的实现](https://mp.weixin.qq.com/s/PSTut5ahAB8nlJ9kBpBaxw)
 
 `@type {boolean}`
 
@@ -140,7 +139,7 @@ sidebar_position: 1
 
 `@type {IPublicTypeIconType}`
 
-相关类型：[IPublicTypeIconType](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/icon-type.ts)
+相关类型：[IPublicTypeIconType](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/icon-type.ts)
 
 ### zLevel
 
@@ -160,7 +159,7 @@ sidebar_position: 1
 
 `@type {IPublicModelComponentMeta | null}`
 
-相关类型：[IPublicModelComponentMeta](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/component-meta.ts)
+相关类型：[IPublicModelComponentMeta](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/component-meta.ts)
 
 
 ### document
@@ -169,7 +168,7 @@ sidebar_position: 1
 
 `@type {IPublicModelDocumentModel | null}`
 
-相关类型：[IPublicModelDocumentModel](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/document-model.ts)
+相关类型：[IPublicModelDocumentModel](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/document-model.ts)
 
 ### prevSibling
 
@@ -195,7 +194,7 @@ sidebar_position: 1
 
 `@type {IPublicModelNodeChildren | null}`
 
-相关类型：[IPublicModelNodeChildren](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/node-children.ts)
+相关类型：[IPublicModelNodeChildren](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/node-children.ts)
 
 ### slots
 
@@ -209,7 +208,7 @@ sidebar_position: 1
 
 `@type {IPublicModelProp | null}`
 
-相关类型：[IPublicModelProp](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/prop.ts)
+相关类型：[IPublicModelProp](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/prop.ts)
 
 ### props
 
@@ -217,7 +216,7 @@ sidebar_position: 1
 
 `@type {IPublicModelProps | null}`
 
-相关类型：[IPublicModelProps](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/props.ts)
+相关类型：[IPublicModelProps](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/props.ts)
 
 
 ### propsData
@@ -227,8 +226,8 @@ sidebar_position: 1
 `@type {IPublicTypePropsMap | IPublicTypePropsList | null}`
 
 相关类型：
-- [IPublicTypePropsMap](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/props-map.ts)
-- [IPublicTypePropsList](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/props-list.ts)
+- [IPublicTypePropsMap](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/props-map.ts)
+- [IPublicTypePropsList](https://github.com/sammkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/props-list.ts)
 
 ### conditionGroup
 
@@ -236,7 +235,7 @@ sidebar_position: 1
 
 `@type {IPublicModelExclusiveGroup | null}`
 
-相关类型：[IPublicModelExclusiveGroup](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/exclusive-group.ts)
+相关类型：[IPublicModelExclusiveGroup](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/exclusive-group.ts)
 
 **@since v1.1.0**
 
@@ -244,9 +243,9 @@ sidebar_position: 1
 
 获取符合搭建协议 - 节点 schema 结构
 
-`@type {IPublicTypeNodeSchema | null}`
+`@type {IPublicTypeNodeSchema }`
 
-相关类型：[IPublicTypeNodeSchema](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/node-schema.ts)
+相关类型：[IPublicTypeNodeSchema](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/node-schema.ts)
 
 ### settingEntry
 
@@ -256,7 +255,7 @@ sidebar_position: 1
 
 相关章节：[设置器顶层操作对象](./setting-top-entry)
 
-相关类型：[IPublicModelSettingTopEntry](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/setting-top-entry.ts)
+相关类型：[IPublicModelSettingTopEntry](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/setting-top-entry.ts)
 
 ### visible
 当前节点是否可见
@@ -328,7 +327,7 @@ hasLoop(): boolean;
 getProp(path: string, createIfNone: boolean): IPublicModelProp | null;
 ```
 
-相关类型：[IPublicModelProp](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/prop.ts)
+相关类型：[IPublicModelProp](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/prop.ts)
 
 ### getPropValue
 
@@ -360,7 +359,7 @@ getPropValue(path: string): any;
 getExtraProp(path: string, createIfNone?: boolean): IPublicModelProp | null;
 ```
 
-相关类型：[IPublicModelProp](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/prop.ts)
+相关类型：[IPublicModelProp](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/prop.ts)
 
 ### getExtraPropValue
 
@@ -392,10 +391,10 @@ setPropValue(path: string, value: CompositeValue)
  * @param path 属性路径，支持 a / a.b / a.0 等格式
  * @param value 值
  */
-setPropValue(path: string, value: IPublicTypeCompositeValue): void;
+setPropValue(path: string, value: IPublicTypeCompositeValue): 
 ```
 
-相关类型：[IPublicTypeCompositeValue](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/composite-value.ts)
+相关类型：[IPublicTypeCompositeValue](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/composite-value.ts)
 
 
 ### setExtraPropValue
@@ -409,10 +408,10 @@ setPropValue(path: string, value: IPublicTypeCompositeValue): void;
  * @param path 属性路径，支持 a / a.b / a.0 等格式
  * @param value 值
  */
-setExtraPropValue(path: string, value: IPublicTypeCompositeValue): void;
+setExtraPropValue(path: string, value: IPublicTypeCompositeValue
 ```
 
-相关类型：[IPublicTypeCompositeValue](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/composite-value.ts)
+相关类型：[IPublicTypeCompositeValue](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/composite-value.ts)
 
 ### importSchema
 
@@ -427,7 +426,7 @@ setExtraPropValue(path: string, value: IPublicTypeCompositeValue): void;
 importSchema(data: IPublicTypeNodeSchema): void;
 ```
 
-相关类型：[IPublicTypeNodeSchema](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/node-schema.ts)
+相关类型：[IPublicTypeNodeSchema](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/node-schema.ts)
 
 ### exportSchema
 
@@ -444,8 +443,8 @@ exportSchema(stage: IPublicEnumTransformStage, options?: any): IPublicTypeNodeSc
 ```
 
 相关类型：
-- [IPublicEnumTransformStage](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/enum/transform-stage.ts)
-- [IPublicTypeNodeSchema](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/node-schema.ts)
+- [IPublicEnumTransformStage](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/enum/transform-stage.ts)
+- [IPublicTypeNodeSchema](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/node-schema.ts)
 
 ### insertBefore
 
@@ -513,7 +512,7 @@ replaceChild(node: IPublicModelNode, data: any): IPublicModelNode | null;
 replaceWith(schema: IPublicTypeNodeSchema): any;
 ```
 
-相关类型：[IPublicTypeNodeSchema](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/node-schema.ts)
+相关类型：[IPublicTypeNodeSchema](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/node-schema.ts)
 
 ### select
 
@@ -550,7 +549,7 @@ hover(flag: boolean): void;
  * @param flag
  * @since v1.0.16
  */
-lock(flag?: boolean): void;
+lock(flag?: boolean): 
 ```
 
 **@since v1.0.16**
@@ -564,7 +563,7 @@ lock(flag?: boolean): void;
  * 删除当前节点实例
  * remove current node
  */
-remove(): void;
+remove(): 
 ```
 
 ### mergeChildren
@@ -629,7 +628,7 @@ canPerformAction(actionName: string): boolean;
  * check if current node ConditionalVisible
  * @since v1.1.0
  */
-isConditionalVisible(): boolean | undefined;
+isConditionalVisible(): boolean | defined;
 ```
 
 **@since v1.1.0**
@@ -643,7 +642,7 @@ isConditionalVisible(): boolean | undefined;
  * make this node as conditionalVisible === true
  * @since v1.1.0
  */
-setConditionalVisible(): void;
+setConditionalVisible()
 ```
 
 **@since v1.1.0**
