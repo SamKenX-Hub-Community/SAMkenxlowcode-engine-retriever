@@ -3,7 +3,7 @@ title: Clipboard
 sidebar_position: 14
 ---
 
-> **@types** [IPublicModelClipboard](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/clipboard.ts)<br/>
+> **@types** [IPublicModelClipboard](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/clipboard.ts)<br/>
 > **@since** v1.1.0
 
 ## Method
