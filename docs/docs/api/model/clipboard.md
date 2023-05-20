@@ -6,7 +6,7 @@ sidebar_position: 14
 > **@types** [IPublicModelClipboard](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/clipboard.ts)<br/>
 > **@since** v1.1.0
 
-## 方法
+## Method
 
 ### setData
 
