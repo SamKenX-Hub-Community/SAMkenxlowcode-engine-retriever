@@ -3,14 +3,14 @@ title: ComponentMeta
 sidebar_position: 15
 ---
 
-> **@types** [IPublicModelComponentMeta](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/component-meta.ts)<br/>
+> **@types** [IPrivateModelComponentMeta](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/component-meta.ts)<br/>
 > **@since** v1.0.0
 
-## 基本介绍
+## basic introduction
 
-组件元数据信息模型
+Component Metadata Information Model
 
-## 属性
+## Attributes
 
 ### componentName
 
