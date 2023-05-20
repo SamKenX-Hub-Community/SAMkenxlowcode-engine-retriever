@@ -6,7 +6,7 @@
     ],
     "nohoist": [
       "**/css-modules-typescript-loader",
-      "**/@alifc/theme-lowcode-*",
+      "**/@samkenxfc/theme-lowcode-*",
       "**/jest"
     ]
   },
@@ -66,5 +66,5 @@
   "resolutions": {
     "typescript": "4.6.2"
   },
-  "repository": "git@github.com:alibaba/lowcode-engine.git"
+  "repository": "git@github.com:samkenxstream/samkenxlowcode-engine.git"
 }
