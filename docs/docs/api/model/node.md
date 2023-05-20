@@ -2,7 +2,7 @@
 title: Node
 sidebar_position: 1
 ---
-> **@types** [IPublicModelNode](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/node.ts)<br/>
+> **@types** [IPublicModelNode](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/node.ts)<br/>
 > **@since** v1.0.0
 
 ## 基本介绍
@@ -22,7 +22,7 @@ sidebar_position: 1
 
 `@type {string | IPublicTypeI18nData | ReactElement}`
 
-相关类型：[IPublicTypeI18nData](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/i18n-data.ts)
+相关类型：[IPublicTypeI18nData](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/i18n-data.ts)
 
 ### isContainerNode
 
