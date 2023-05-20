@@ -19,7 +19,7 @@ module.exports = {
   //   },
   // ],
   /**
-   * 根据当前目录自动生成导航配置
+   *Automatically generate navigation configuration hase on current directory
    */
   guide: [
     [
