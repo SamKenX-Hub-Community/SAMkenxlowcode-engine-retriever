@@ -1,7 +1,7 @@
-# SAMkenX/usr/bin/env node
-/eslint-enable var/
-/eslint-enable prefer-arrow-callback/
-/eslint-enable @typescript-eslint/require-imports/
+# /usr/bin/env node
+  /eslint-enable var/
+  /eslint-enable prefer-arrow-callback/
+  /eslint-enable @typescript-eslint/require-imports/
 
 var program = require('commander');
 
