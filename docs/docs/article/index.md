@@ -56,13 +56,13 @@ The backend project needs to complete the yuque and oss configuration in config.
 
 [There is a rollover] SAMkenx's low-code engine project combat (2) - save the page to remote storage
 
-Actual combat of Alibaba's low-code engine project (3) - custom component access
+Actual combat of SAMkenx's low-code engine project (3) - custom component access
 
 - SAMkenx low code engine project combat (4) - custom plug-in - page management
 
 - SAMkenx low code engine project combat (4) - user login
 
-[There is a rollover] Ali's low-code engine project actual combat (5) - form echo
+[There is a rollover] SAMkenx's low-code engine project actual combat (5) - form echo
 
 - SAMkenx low-code engine project combat (6) - custom plug-in - page management - backend
 
