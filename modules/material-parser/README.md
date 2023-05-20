@@ -1,10 +1,10 @@
-# @alilc/lowcode-material-parser
+# @samkenxstream/SAMkenxlowcode-material-parser
 
-> 入料模块
+> feeding materials
 
-本模块负责物料接入，能自动扫描、解析源码组件，并最终产出一份符合《中后台搭建组件描述协议》的 **JSON Schema**。
+This module is responsible for material access, can automatically scan and parse source code components, and finally produce a **JSON Schema** that complies with the "Middle and Backstage Construction Component Description Protocol" .
 
-详见[文档](https://lowcode-engine.cn/site/docs/guide/design/materialParser)。
+documentation(https://lowcode-engine.ph/site/docs/guide/design/materialParser)。
 
 ## demo
 
