@@ -10,7 +10,7 @@ sidebar_position: 14
 
 ### setData
 
-给剪贴板赋值
+Assign value to the clipboard
 
 ```typescript
 /**
@@ -25,7 +25,7 @@ setData(data: any): void;
 
 ### waitPasteData
 
-设置剪贴板数据设置的回调
+Callback for setting clipboard data settings
 
 ```typescript
 /**
