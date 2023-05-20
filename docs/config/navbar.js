@@ -49,10 +49,10 @@ module.exports = {
     {
       to: '/community/issue',
       position: 'left',
-      label: '社区',
+      label: 'community',
       activeBaseRegex: '/community/',
     },
-    // 版本切换，如需，这里开启即可
+    // Version switching, if necessary, open it here
     // {
     //   type: 'docsVersionDropdown',
     //   position: 'right',
