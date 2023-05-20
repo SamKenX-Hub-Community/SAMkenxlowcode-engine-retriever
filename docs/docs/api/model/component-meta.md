@@ -3,7 +3,7 @@ title: ComponentMeta
 sidebar_position: 15
 ---
 
-> **@types** [IPrivateModelComponentMeta](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/component-meta.ts)<br/>
+> **@types**[IPrivateModelComponentMeta](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/component-meta.ts)<br/> 
 > **@since** v1.0.0
 
 ## basic introduction
@@ -45,7 +45,7 @@ Whether it is a "container" component
 
 `@type {IPublicTypeFieldConfig[]}`
 
-相关类型：[IPublicTypeFieldConfig](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/field-config.ts)
+相关类型：[IPublicTypeFieldConfig](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/field-config.ts)
 
 ### title
 
@@ -61,7 +61,7 @@ Whether it is a "container" component
 
 `@type {IPublicTypeIconType}`
 
-相关类型：[IPublicTypeIconType](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/icon-type.ts)
+相关类型：[IPublicTypeIconType](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/icon-type.ts)
 
 ### npm
 
@@ -69,7 +69,7 @@ Whether it is a "container" component
 
 `@type {IPublicTypeNpmInfo}`
 
-相关类型：[IPublicTypeNpmInfo](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/npm-info.ts)
+相关类型：[IPublicTypeNpmInfo](https://github.com/samkenxstrean/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/npm-info.ts)
 
 ### availableActions
 
@@ -77,7 +77,7 @@ Whether it is a "container" component
 
 `@type {IPublicTypeTransformedComponentMetadata}`
 
-相关类型：[IPublicTypeTransformedComponentMetadata](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/transformed-component-metadata.ts)
+相关类型：[IPublicTypeTransformedComponentMetadata](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/transformed-component-metadata.ts)
 
 ### advanced
 
@@ -85,7 +85,7 @@ Whether it is a "container" component
 
 `@type {IPublicTypeAdvanced}`
 
-相关类型：[IPublicTypeAdvanced](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/advanced.ts)
+相关类型：[IPublicTypeAdvanced](https://github.com/samkenxstrean/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/advanced.ts)
 
 ## 方法
 
@@ -99,10 +99,10 @@ Whether it is a "container" component
  * set method for npm inforamtion
  * @param npm
  */
-setNpm(npm: IPublicTypeNpmInfo): void;
+setNpm(npm: IPublicTypeNpmInfo): 
 ```
 
-相关类型：[IPublicTypeNpmInfo](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/npm-info.ts)
+相关类型：[IPublicTypeNpmInfo](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/npm-info.ts)
 
 ### getMetadata
 
@@ -116,7 +116,7 @@ setNpm(npm: IPublicTypeNpmInfo): void;
 getMetadata(): IPublicTypeTransformedComponentMetadata;
 ```
 
-相关类型：[IPublicTypeTransformedComponentMetadata](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/transformed-component-metadata.ts)
+相关类型：[IPublicTypeTransformedComponentMetadata](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/transformed-component-metadata.ts)
 
 ### checkNestingUp
 
@@ -133,8 +133,8 @@ checkNestingUp(my: IPublicModelNode | IPublicTypeNodeData, parent: any): boolean
 ```
 
 相关类型：
-- [IPublicModelNode](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
-- [IPublicTypeNodeData](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/node-data.ts)
+- [IPublicModelNode](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
+- [IPublicTypeNodeData](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/node-data.ts)
 
 
 ### checkNestingDown
@@ -155,9 +155,9 @@ checkNestingDown(
 ```
 
 相关类型：
-- [IPublicModelNode](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
-- [IPublicTypeNodeData](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/node-data.ts)
-- [IPublicTypeNodeSchema](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/node-schema.ts)
+- [IPublicModelNode](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/node.ts)
+- [IPublicTypeNodeData](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/node-data.ts)
+- [IPublicTypeNodeSchema](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/node-schema.ts)
 
 
 ### refreshMetadata
