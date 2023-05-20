@@ -1,9 +1,9 @@
-# 忽略目录
+# directory
 node_modules/
 build/
 dist/
 
-# 忽略文件
+# file
 **/*.min.css
 **/*-min.css
 **/*.bundle.css
