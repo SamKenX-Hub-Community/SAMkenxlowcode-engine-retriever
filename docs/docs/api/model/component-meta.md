@@ -14,13 +14,13 @@ Component Metadata Information Model
 
 ### componentName
 
-组件名
+component name
 
 `@type {string}`
 
 ### isContainer
 
-是否是「容器型」组件
+Whether it is a "container" component
 
 `@type {boolean}`
 
