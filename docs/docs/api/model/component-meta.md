@@ -3,7 +3,7 @@ title: ComponentMeta
 sidebar_position: 15
 ---
 
-> **@types**[IPrivateModelComponentMeta](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/model/component-meta.ts)<br/> 
+> **@types**[IPrivateModelComponentMeta](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/model/component-meta.ts)<br/> 
 > **@since** v1.0.0
 
 ## basic introduction
@@ -53,7 +53,7 @@ Whether it is a "container" component
 
 `@type {string | IPublicTypeI18nData | ReactElement}`
 
-相关类型：[IPublicTypeI18nData](https://github.com/alibaba/lowcode-engine/blob/main/packages/types/src/shell/type/i18n-data.ts)
+相关类型：[IPublicTypeI18nData](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/packages/types/src/shell/type/i18n-data.ts)
 
 ### icon
 
@@ -169,5 +169,5 @@ checkNestingDown(
  * 刷新元数据，会触发元数据的重新解析和刷新
  * refresh metadata
  */
-refreshMetadata(): void;
+refreshMetadata():
 ```
