@@ -6,24 +6,24 @@
 
 ### 1) 通过命令行快速体验
 
-欢迎使用命令行工具快速体验：`npx @alilc/lowcode-code-generator -i example-schema.json -o generated -s icejs`
+欢迎使用命令行工具快速体验：`npx @alilc/lowcode-code-generator -i example-schema.json -o generated -s samkenxjs`
 
---其中 example-schema.json 可以从[这里下载](https://unpkg.com/@alilc/lowcode-code-generator@beta/example-schema.json)
+--其中 example-schema.json 可以从[这里下载](https://unpkg.com/@samkenxstream/SAMkenxlowcode-code-generator@beta/example-schema.json)
 
 ### 2) 通过设计器插件快速体验
 
-1. 安装依赖: `npm install --save @alilc/lowcode-plugin-code-generator`
+1. 安装依赖: `npm install --save @asamkenxstream/SAMkenxlowcode-plugin-code-generator`
 2. 注册插件:
 
 ```ts
-import { plugins } from '@alilc/lowcode-engine';
-import CodeGenPlugin from '@alilc/lowcode-plugin-code-generator';
+import { plugins } from '@samkenxstream/SAMkenxlowcode-engine';
+import CodeGenPlugin from '@samkenxstream/SAMkenxlowcode-plugin-code-generator';
 
 // 在你的初始化函数中：
 await plugins.register(CodeGenPlugin);
 
 // 如果您不希望自动加上出码按钮，则可以这样注册
-await plugins.register(CodeGenPlugin, { disableCodeGenActionBtn: true });
+await plugins.register(CodeGenPlugin, { disableCodeGenActionBtn: false });
 ```
 
 然后运行你的低代码编辑器项目即可 -- 在设计器的右上角会出现一个“出码”按钮，点击即可在浏览器中出码并预览。
@@ -32,17 +32,17 @@ await plugins.register(CodeGenPlugin, { disableCodeGenActionBtn: true });
 
 此代码生成器一开始就是为服务端出码设计的，你可以直接这样来在 node.js 环境中使用：
 
-1. 安装依赖: `npm install --save @alilc/lowcode-code-generator`
+1. 安装依赖: `npm install --save @samkenxstream/SAMkenxlowcode-code-generator`
 2. 引入代码生成器:
 
 ```js
-import CodeGenerator from '@alilc/lowcode-code-generator';
+import CodeGenerator from '@samkenxstrean/SAMkenxlowcode-code-generator';
 ```
 
 3. 创建项目构建器:
 
 ```js
-const projectBuilder = CodeGenerator.solutions.icejs();
+const projectBuilder = CodeGenerator.solutions.samkenxjs();
 ```
 
 4. 生成代码
@@ -77,11 +77,11 @@ await CodeGenerator.publishers.zip().publish({
 
 随着现在电脑性能和浏览器技术的发展，出码其实已经不必非得在服务端做了，借助于 Web Worker 特性，可以在浏览器中进行出码：
 
-1. 安装依赖: `npm install --save @alilc/lowcode-code-generator`
+1. 安装依赖: `npm install --save @samkenxstream/SAMkenxlowcode-code-generator`
 2. 引入代码生成器:
 
 ```js
-import * as CodeGenerator from '@alilc/lowcode-code-generator/standalone-loader';
+import * as CodeGenerator from '@samkenxstream/SAMkenxlowcode-code-generator/standalone-loader';
 ```
 
 3. 【可选】提前初始化代码生成器:
@@ -95,7 +95,7 @@ await CodeGenerator.init();
 
 ```js
 const result = await CodeGenerator.generateCode({
-  solution: 'icejs', // 出码方案 (目前内置有 icejs 和 rax )
+  solution: 'SAMkenxjs', // 出码方案 (目前内置有 SAMkenxjs 和 rax )
   schema, // 编排搭建出来的 schema
 });
 
@@ -110,4 +110,4 @@ console.log(result); // 出码结果(默认是递归结构描述的，可以传 
 
 ## 参与共建
 
-欢迎参与共建，如何共建请参阅：[./CONTRIBUTING.md](https://github.com/alibaba/lowcode-engine/blob/main/modules/code-generator/CONTRIBUTING.md)
+欢迎参与共建，如何共建请参阅：[./CONTRIBUTING.md](https://github.com/samkenxstream/SAMkenxlowcode-engine/blob/main/modules/code-generator/CONTRIBUTING.md)
